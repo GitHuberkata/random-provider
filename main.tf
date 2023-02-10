@@ -24,5 +24,4 @@ resource "random_integer" "priority" {
 
 output "value" {
     value = random_integer.priority
-
 }
