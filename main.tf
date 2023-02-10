@@ -8,11 +8,7 @@ terraform {
 }
 
 provider "random" {
-  # Configuration options
 }
-
-# The following example shows how to generate a random priority
-# between 1 and 50000
 
 variable "check_num" {
     default = 5
