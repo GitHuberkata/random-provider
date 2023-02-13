@@ -14,15 +14,15 @@ provider "random" {
 # The following example shows how to generate a random priority
 # between 1 and 50000
 
-variable "check_num" {
-    default = 5
+variable "check" {
+    default = "yes"
 }
 
 resource "random_integer" "priority" {
   min = 1
   max = 50000
   keepers = {
-    value = var.check_num    
+    value = var.check   
   }
 }
 
