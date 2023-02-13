@@ -7,7 +7,11 @@
 
 ### Use Case
 The configuration is using `random provider` and generates random priority between 1 and 50000.
+
 `Random_provider` can have meta-argument `keepers`.
+
+`Keepers` when changed, will trigger recreation of resource that's why it is mapped to a string variable `variable "check {}` which will expect an input from the terminal.
+
 More details on the `random provider` can be found [here](https://registry.terraform.io/providers/hashicorp/random/latest/docs)
 
 ### How to use
