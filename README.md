@@ -3,7 +3,7 @@
 ### Prerequisites
 - Git
 - Terraform CLI
-- AWS credentials
+
 
 ### Use Case
 The configuration is using `random provider` and generates random priority between 1 and 50000.
