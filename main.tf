@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "random" {
-  # Configuration options
 }
 
 # The following example shows how to generate a random priority
@@ -28,5 +27,4 @@ resource "random_integer" "priority" {
 
 output "value" {
     value = random_integer.priority
-
 }
