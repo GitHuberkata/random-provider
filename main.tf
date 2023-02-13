@@ -8,6 +8,7 @@ terraform {
 }
 
 provider "random" {
+ type = string
 }
 
 # The following example shows how to generate a random priority
