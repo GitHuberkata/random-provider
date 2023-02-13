@@ -12,7 +12,7 @@ More details on the `random provider` can be found [here](https://registry.terra
 ### How to use
 1. Get the repo
 ```
-git clone [https://github.com/GitHuberkata/module-code.git](https://github.com/GitHuberkata/random-provider.git)
+git clone https://github.com/GitHuberkata/module-code.git
 ```
 2. Navigate to folder projects
 ```
