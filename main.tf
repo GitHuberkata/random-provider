@@ -7,9 +7,7 @@ terraform {
   }
 }
 
-provider "random" {
- type = string
-}
+provider "random" {}
 
 # The following example shows how to generate a random priority
 # between 1 and 50000
